@@ -12,7 +12,6 @@
 
 .header-row{
     height: 80px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +19,22 @@
 
 .header-left-row, .header-right-row{
     width: 30%;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links{
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+.button-01{
+    background-color: #0061ff;
+    color: white;
+    height: 30px;
+    width: 70px;
 }
 
 /* Header */
