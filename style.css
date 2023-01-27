@@ -40,15 +40,17 @@
 
 /* Header */
 
+/* --------------------------------*/
+
 /* Main */
 
 .background-section-01 {
-    height: 740px;
+    height: 680px;
     background-color: #b4d0e7;
-    text-align: center;
+
 }
 
-.main-box-01{
+.main-box-01 {
     width: auto;
     height: 470px;
     display: flex;
@@ -58,7 +60,6 @@
 .box-ms-01 {
     height: 460px;
     width: 1230px;
-    background-color: yellow;
     display: flex;
     justify-content: center;
 }
@@ -69,19 +70,21 @@
     text-align: center;
 }
 
-.small-box-01{
-    padding-top: 60px;
-    width: 40%;
-    background-color: brown;
+/* --------------------------------*/
 
-} .small-box-02{
+.small-box-01 {
     padding-top: 60px;
-    width: 60%;
-    background-color: brown;
+    width: 30%;
+    padding-left: 50px;
 }
 
-.jumbo{
-    width: 100%;
+.paragrafo {
+    padding-top: 30px;
+}
+
+.arrow {
+    font-size: 50px;
+    padding-top: 80px;
 }
 
 .button-02 {
@@ -89,7 +92,36 @@
     color: white;
     height: 30px;
     width: 200px;
+    border: none;
 }
+
+
+/* --------------------------------*/
+
+.small-box-02 {
+    padding-top: 60px;
+    width: 70%;
+}
+
+.jumbo {
+    width: 100%;
+}
+
+/* --------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
