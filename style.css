@@ -121,26 +121,24 @@ body {
 /* Fine-Section-01 */
 
 
-
-
 /* Section-02 */
 
 
-.background-section-02{
-    height: 1300px;         
+.background-section-02 {
+    height: 1300px;
 }
 
-.titolo-scelta{
+.titolo-scelta {
     position: relative;
 }
 
-.titolo-ms-02{
+.titolo-ms-02 {
     font-size: 30px;
     padding-top: 80px;
     text-align: center;
 }
 
-.choice-01{
+.choice-01 {
     text-align: center;
     display: inline-block;
     position: absolute;
@@ -148,7 +146,7 @@ body {
     padding-top: 50px;
 }
 
-    .choice-02{
+.choice-02 {
     text-align: center;
     display: inline-block;
     position: absolute;
@@ -156,41 +154,51 @@ body {
     padding-top: 50px;
 }
 
-.main-box-choice{
-    height: 1200px;            /* ------------------------------- */
-    background-color: aquamarine;
+.main-box-choice {
+    height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
-.box-choice{
+.box-choice {
     width: 300px;
-    height: 950px;
-    background-color: crimson;
-    border: 1px solid;
+    height: 870px;
+    border: 1px solid grey;
 }
 
-.box-mini{
-    border: 1px solid black;
+.box-mini {
+    border: 0.5px solid grey;
     height: 40px;
-    text-align: center;
     padding-top: 10px;
+    text-align: center;
 }
 
-
-.padding{
-    padding-bottom: 25px; 
+.padding {
+    padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 25px;
-    line-height: 25px; 
+    line-height: 25px;
 }
 
-hr{
-    width:50%;
-    margin:0 auto;
-  
+.padding-02 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    line-height: 35px;
 }
+
+hr {
+    width: 20%;
+}
+
+.fa-check {
+    color: blue;
+    font-size: 15px;
+}
+
+/* Fine-Section-02 */
 
 
 
