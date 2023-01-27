@@ -174,7 +174,26 @@ body {
 .box-mini{
     border: 1px solid black;
     height: 40px;
+    text-align: center;
+    padding-top: 10px;
 }
+
+
+.padding{
+    padding-bottom: 25px; 
+    padding-top: 25px;
+    padding-left: 25px;
+    line-height: 25px; 
+}
+
+hr{
+    width:50%;
+    margin:0 auto;
+  
+}
+
+
+
 
 
 
