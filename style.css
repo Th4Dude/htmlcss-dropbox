@@ -125,7 +125,7 @@ body {
 
 
 .background-section-02 {
-    height: 1300px;
+    height: 1200px;
 }
 
 .titolo-scelta {
@@ -170,6 +170,9 @@ body {
 
 .box-mini {
     border: 0.5px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     height: 40px;
     padding-top: 10px;
     text-align: center;
@@ -200,9 +203,48 @@ hr {
 
 /* Fine-Section-02 */
 
+/* Section-03 */
 
+.background-section-03 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
 
+.row-section-03 {
+    height: 260px;
+    width: 985px;
+}
 
+.row-section-03top {
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid grey;
+}
+
+.row-section-03bottom {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    padding-top: 25px;
+    padding-left: 20px;
+    position: relative;
+    border: 1px solid grey;
+    border-top: none;
+}
+
+.padding-03 {
+    padding-bottom: 25px;
+}
+
+.button-03 {
+    position: absolute;
+    right: 70px;
+    top: 25px;
+}
+
+/* Fine-Section-03 */
 
 
 
