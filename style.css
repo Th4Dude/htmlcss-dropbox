@@ -206,7 +206,7 @@ hr {
 /* Section-03 */
 
 .background-section-03 {
-    height: 500px;
+    height: 350px;
     display: flex;
     justify-content: center;
 }
@@ -246,9 +246,49 @@ hr {
 
 /* Fine-Section-03 */
 
+/* Section-04 */
 
+.background-section-04 {
+    height: 525px;
+    display: flex;
+    justify-content: center;
+}
 
+.main-box-section-04 {
+    height: 500px;
+    width: 980px;
+    display: flex;
+}
 
+.left-row-section-04 {
+    width: 60%;
+}
+
+.right-row-section-04 {
+    width: 40%;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+
+.img-section-04 {
+    width: 100%;
+    display: block;
+}
+
+.button-04 {
+    padding-top: 40px;
+
+}
+
+.button-02b {
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 150px;
+    border: 1px solid grey;
+}
+
+/* Fine-Section-04 */
 
 
 
