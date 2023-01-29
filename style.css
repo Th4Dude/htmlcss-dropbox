@@ -431,6 +431,50 @@ hr {
 
 /* <!-- Fine-Section-06 --> */
 
+/* Section-07 */
+
+.background-section-07{
+    background-color: #b4d0e7;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-section-07{
+    width: 790px;
+    position: relative;
+    
+}
+
+.small-box-section-07a{
+    display: inline-block;
+}
+
+.small-box-section-07b{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+}
+
+.button-sec-07{
+
+    background-color: white;
+color: black;
+height: 30px;
+width: 180px;
+border: 1px solid grey;
+padding-left: 10px;
+}
+
+/* Fine-Section-07 */
+
+
+
+
+
+
 
 /* Main */
 
