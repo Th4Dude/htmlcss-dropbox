@@ -470,8 +470,22 @@ padding-left: 10px;
 
 /* Fine-Section-07 */
 
+/* Section-08 */
 
+.background-section-08{
+    display: flex;
+    justify-content: center;
+}
 
+.box-section-08{
+    background-color: #0093ce;
+    width: 800px;
+    height: 425px;
+}
+
+.box-question-section-08{
+    background-color: #d5001f;
+}
 
 
 
