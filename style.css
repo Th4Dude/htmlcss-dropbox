@@ -167,33 +167,35 @@ header {
 
 /* --Radio attributes-- */
 
-.container:hover input ~ .checkmark {
+.container:hover input~.checkmark {
     background-color: rgb(135, 188, 222);
+    border-radius: 10px;
 }
 
-.container input:checked ~ .checkmark {
-    background-color:  rgb(135, 188, 222);
+.container input:checked~.checkmark {
+    background-color: rgb(135, 188, 222);
+    border-radius: 10px;
 }
 
-.container input:checked ~ .checkmark:after {
+.container input:checked~.checkmark:after {
     display: block;
 }
-  
+
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-  .container .checkmark:after {
-   top: 15px;
-   left: 15px;
-   width: 15px;
-   height: 15px;
-   border-radius: 50%;
-   background: white;
+.container .checkmark:after {
+    top: 15px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
 }
-  
+
 /* --Radio attributes-- */
 
 .main-box-choice {
