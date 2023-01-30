@@ -165,6 +165,37 @@ header {
     padding-top: 50px;
 }
 
+/* --Radio attributes-- */
+
+.container:hover input ~ .checkmark {
+    background-color: rgb(135, 188, 222);
+}
+
+.container input:checked ~ .checkmark {
+    background-color:  rgb(135, 188, 222);
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+  .container .checkmark:after {
+   top: 15px;
+   left: 15px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background: white;
+}
+  
+/* --Radio attributes-- */
+
 .main-box-choice {
     height: 1200px;
     display: flex;
@@ -388,15 +419,10 @@ hr {
     width: 70%;
     padding-top: 125px;
     padding-left: 80px;
-
 }
 
 .green {
     background-color: #a2d39b;
-}
-
-.designit {
-    size: ;
 }
 
 .wine {
@@ -428,17 +454,14 @@ hr {
 
 .light-blue {
     background-color: #b4d0e7;
-
 }
 
 .darkblue {
     background-color: #0d2481;
-
 }
 
 .yellow {
     background-color: #ffd830;
-
 }
 
 /* <!-- Fine-Section-06 --> */
