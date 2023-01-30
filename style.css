@@ -8,15 +8,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
 }
 
 /* Reset */
 
 /* Header */
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,6 +24,7 @@ header{
     background-color: white;
     border-bottom: 1px solid gray;
 }
+
 .header-row {
     height: 80px;
     display: flex;
@@ -35,7 +34,7 @@ header{
 
 .header-left-row,
 .header-right-row {
-    padding: 0px 10px;
+    padding: 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,10 +44,12 @@ header{
     text-decoration: none;
     padding: 0 30px;
     font-size: 13px;
+    color: black;
 }
 
 .button-01 {
     background-color: #0061ff;
+    border: none;
     color: white;
     height: 30px;
     width: 70px;
@@ -145,14 +146,14 @@ header{
 .titolo-ms-02 {
     font-size: 30px;
     padding-top: 80px;
-    text-align: center;
+    padding-left: 520px;
 }
 
 .choice-01 {
     text-align: center;
     display: inline-block;
     position: absolute;
-    left: 625px;
+    left: 525px;
     padding-top: 50px;
 }
 
@@ -160,7 +161,7 @@ header{
     text-align: center;
     display: inline-block;
     position: absolute;
-    left: 950px;
+    left: 780px;
     padding-top: 50px;
 }
 
@@ -363,87 +364,88 @@ hr {
 
 .left-row-section-06,
 .center-row-section-06,
-.right-row-section-06{
+.right-row-section-06 {
     width: 677px;
 }
 
-.left-row-section-06{
+.left-row-section-06 {
     display: flex;
     flex-wrap: wrap;
 }
 
-.right-row-section-06{
+.right-row-section-06 {
     display: flex;
     flex-wrap: wrap;
     margin-left: 110px;
 }
 
-.logo-section-06{
+.logo-section-06 {
     height: 320px;
     width: 320px;
 }
 
-.img-box-section-06{
+.img-box-section-06 {
     width: 70%;
     padding-top: 125px;
     padding-left: 80px;
 
 }
 
-.green{
+.green {
     background-color: #a2d39b;
 }
-.designit{
+
+.designit {
     size: ;
 }
 
-.wine{
-    background-color: #61082b; 
+.wine {
+    background-color: #61082b;
 }
 
-.blue{
+.blue {
     background-color: #0093ce;
 }
 
-.red{
+.red {
     background-color: #ff1c1c;
 }
 
-.center-row-section-06{
+.center-row-section-06 {
     background-color: #f5f5f5;
     padding-left: 20px;
-    
+
 }
 
-.logo-center-row-section-6{
+.logo-center-row-section-6 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
-.red-02{
-    background-color: #d5001f; 
+.red-02 {
+    background-color: #d5001f;
 }
 
-.light-blue{
-    background-color: #b4d0e7 ;
-    
+.light-blue {
+    background-color: #b4d0e7;
+
 }
 
-.darkblue{
+.darkblue {
     background-color: #0d2481;
-    
+
 }
 
-.yellow{
-    background-color: #ffd830 ;
-    
+.yellow {
+    background-color: #ffd830;
+
 }
 
 /* <!-- Fine-Section-06 --> */
 
 /* Section-07 */
 
-.background-section-07{
+.background-section-07 {
     background-color: #b4d0e7;
     height: 360px;
     display: flex;
@@ -451,71 +453,72 @@ hr {
     align-items: center;
 }
 
-.box-section-07{
+.box-section-07 {
     width: 790px;
     position: relative;
-    
+
 }
 
-.small-box-section-07a{
+.small-box-section-07a {
     display: inline-block;
 }
 
-.small-box-section-07b{
-    position:absolute;
-    top: 0px;
-    right: 0px;
+.small-box-section-07b {
+    position: absolute;
+    top: 10px;
+    right: -15px;
     display: inline-block;
 }
 
-.titolo-section-07{
+.titolo-section-07 {
     color: #61082b;
+    font-size: 35px;
 }
 
-.button-sec-07{
+.button-sec-07 {
 
     background-color: white;
-color: black;
-height: 30px;
-width: 180px;
-border: 1px solid grey;
-padding-left: 10px;
+    color: black;
+    height: 30px;
+    width: 180px;
+    border: 1px solid grey;
+    padding-left: 10px;
 }
 
 /* Fine-Section-07 */
 
 /* Section-08 */
 
-.background-section-08{
+.background-section-08 {
     height: 600px;
     display: flex;
     justify-content: center;
     padding-top: 100px;
 }
 
-.box-section-08{
+.box-section-08 {
     width: 800px;
     height: 425px;
     flex-direction: row;
     align-items: center;
 }
 
-.box-question-section-08{
+.box-question-section-08 {
     height: 100px;
     border-bottom: 1px solid grey;
     padding-top: 40px;
 }
 
-.box-question-section-08b{
+.box-question-section-08b {
     height: 100px;
     border-bottom: 1px solid grey;
     padding-top: 15px;
     font-size: 20px;
 }
 
-.fa-caret-down{
+.fa-caret-down {
     padding-left: 270px;
-    
+
 }
 
 /* Fine-Section-08 */
@@ -528,7 +531,7 @@ padding-left: 10px;
 
 /* Section-09 */
 
-.background-section-09{
+.background-section-09 {
     background-color: black;
     height: 570px;
     display: flex;
@@ -538,32 +541,34 @@ padding-left: 10px;
     gap: 20px;
 }
 
-.box-section-09{
+.box-section-09 {
     height: 400px;
     width: 200px;
     color: white;
-    
 }
 
-.padding-05{
+.padding-05 {
     padding-top: 10px;
 }
-.padding-06{
+
+.padding-06 {
     padding-bottom: 30px;
 }
-.padding-07{
+
+.padding-07 {
     padding-top: 100px;
 }
 
-.fa-up-long{
+.fa-up-long {
     padding-left: 10px;
 }
 
+.hr-01 {
+    width: 50%;
+}
 
+/* Fine-Section-09 */
 
+/* Fine-Footer */
 
-
-
-
-
-
+/* -------------------------------------- */
