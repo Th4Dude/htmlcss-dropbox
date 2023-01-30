@@ -487,6 +487,7 @@ padding-left: 10px;
 /* Section-08 */
 
 .background-section-08{
+    height: 600px;
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -519,9 +520,49 @@ padding-left: 10px;
 
 /* Fine-Section-08 */
 
+/* Fine-Main */
+
+/* -------------------------------------- */
+
+/* Footer */
+
+/* Section-09 */
+
+.background-section-09{
+    background-color: black;
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-section-09{
+    height: 400px;
+    width: 200px;
+    color: white;
+    
+}
+
+.padding-05{
+    padding-top: 10px;
+}
+.padding-06{
+    padding-bottom: 30px;
+}
+.padding-07{
+    padding-top: 100px;
+}
+
+.fa-up-long{
+    padding-left: 10px;
+}
 
 
-/* Main */
+
+
+
 
 
 
