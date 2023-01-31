@@ -69,6 +69,15 @@ header {
 
 }
 
+.box-title-01{
+    padding-top: 80px;
+    padding-left: 390px;
+}
+
+.titolo-ms-01 {
+    font-size: 77px;
+}
+
 .main-box-01 {
     width: auto;
     height: 500px;
@@ -83,12 +92,6 @@ header {
     justify-content: center;
 }
 
-.titolo-ms-01 {
-    font-size: 77px;
-    padding-top: 80px;
-    padding-left: 445px;
-}
-    
 /* --------------------------------*/
 
 .small-box-01 {
@@ -235,7 +238,7 @@ header {
 }
 
 .padding-top{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .padding-02 {
@@ -325,7 +328,6 @@ hr {
 
 .img-section-04 {
     width: 100%;
-    display: block;
 }
 
 .button-04 {
@@ -364,14 +366,12 @@ hr {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
 }
 
 .small-box-section-05 {
     width: 320px;
     height: 470px;
     margin: 0 5px;
-    
 }
 
 .img-box-section-05 {
@@ -398,86 +398,145 @@ hr {
 }
 
 .background-section-06 {
-    background-color: #f5f5f5;
+    background-color:#f5f5f5;
     margin-top: 60px;
+}
+
+.main-box-section-06{
     display: flex;
 }
 
-.left-row-section-06,
-.center-row-section-06,
-.right-row-section-06 {
-    width: 677px;
-}
-
-.left-row-section-06 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.right-row-section-06 {
+.small-box-06{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    margin-left: 110px;
 }
 
-.logo-section-06 {
-    height: 320px;
-    width: 320px;
-}
-
-.img-box-section-06 {
-    width: 70%;
-    padding-top: 125px;
-    padding-left: 80px;
-    filter: invert(1);
-}
-
-.green {
+.logo-section-06-green{
+    width: 50%;
+    height: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #a2d39b;
 }
 
-.wine {
+.logo-section-06-green img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-section-06-wine{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #61082b;
 }
 
-.blue {
-    background-color: #0093ce;
+.logo-section-06-wine img{
+    width: 50%;
+    filter: invert(1);
 }
 
-.red {
+.logo-section-06-blue{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0093ce;;
+}
+
+.logo-section-06-blue img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-section-06-red{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ff1c1c;
 }
 
-.center-row-section-06 {
-    background-color: #f5f5f5;
-    padding-left: 20px;
-
+.logo-section-06-red img{
+    width: 50%;
+    filter: invert(1);
 }
 
-.logo-center-row-section-6 {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    overflow: auto;
+.logo-section-06-red02{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5001f;;
 }
 
-.red-02 {
-    background-color: #d5001f;
-   
+.logo-section-06-red02 img{
+    width: 50%;
+    filter: invert(1);
 }
 
-.light-blue {
+.logo-section-06-lightblue{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #b4d0e7;
-    
 }
 
-.darkblue {
+.logo-section-06-lightblue img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-section-06-darkblue{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0d2481;
-    
-    
 }
 
-.yellow {
+.logo-section-06-darkblue img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-section-06-yellow{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffd830;
+}
+
+.logo-section-06-yellow img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.center-row-section-06{
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
+.padding-top-08{
+    padding-top: 80px;
+}
+
+.logo-center-row-section-6 img {
+    width: 50%;
+    height: 50%;
 }
 
 /* <!-- Fine-Section-06 --> */
@@ -493,7 +552,7 @@ hr {
 }
 
 .box-section-07 {
-    width: 790px;
+    width: 800px;
     position: relative;
 
 }
@@ -556,7 +615,7 @@ hr {
 }
 
 .fa-caret-down {
-    padding-left: 270px;
+    padding-left: 370px;
 
 }
 
