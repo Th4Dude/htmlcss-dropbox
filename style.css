@@ -84,11 +84,11 @@ header {
 }
 
 .titolo-ms-01 {
-    font-size: 60px;
+    font-size: 77px;
     padding-top: 80px;
-    text-align: center;
+    padding-left: 445px;
 }
-
+    
 /* --------------------------------*/
 
 .small-box-01 {
@@ -136,7 +136,8 @@ header {
 
 
 .background-section-02 {
-    height: 1200px;
+    height: 1300px;
+    padding-top: 100px;
 }
 
 .titolo-scelta {
@@ -227,6 +228,14 @@ header {
     padding-top: 25px;
     padding-left: 25px;
     line-height: 25px;
+}
+
+.padding-bottom{
+    padding-bottom: 10px;
+}
+
+.padding-top{
+    padding-top: 20px;
 }
 
 .padding-02 {
@@ -351,7 +360,7 @@ hr {
 
 .main-box-section-05 {
     height: 1000px;
-    width: 980px;
+    width: 1000px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -361,7 +370,8 @@ hr {
 .small-box-section-05 {
     width: 320px;
     height: 470px;
-    gap: 10px;
+    margin: 0 5px;
+    
 }
 
 .img-box-section-05 {
@@ -389,10 +399,8 @@ hr {
 
 .background-section-06 {
     background-color: #f5f5f5;
-    height: 640px;
     margin-top: 60px;
     display: flex;
-
 }
 
 .left-row-section-06,
@@ -421,6 +429,7 @@ hr {
     width: 70%;
     padding-top: 125px;
     padding-left: 80px;
+    filter: invert(1);
 }
 
 .green {
@@ -448,18 +457,23 @@ hr {
 .logo-center-row-section-6 {
     padding-bottom: 50px;
     padding-top: 50px;
+    overflow: auto;
 }
 
 .red-02 {
     background-color: #d5001f;
+   
 }
 
 .light-blue {
     background-color: #b4d0e7;
+    
 }
 
 .darkblue {
     background-color: #0d2481;
+    
+    
 }
 
 .yellow {
